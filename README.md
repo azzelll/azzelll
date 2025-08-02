@@ -36,6 +36,7 @@ I’m passionate about building innovative projects in **Artificial Intelligence
 
 ## 📊 GitHub Stats
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=azzelll&show_icons=true&theme=tokyonight)
+
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=azzelll&layout=compact&theme=tokyonight)
 
 ---
