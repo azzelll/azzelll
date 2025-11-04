@@ -33,17 +33,6 @@ I’m passionate about building innovative projects in **Artificial Intelligence
 
 ---
 
-## 📌 Featured Projects
-### 1️⃣ AI Dance Detector
-Detects traditional Indonesian dances from **image** or **video**.  
-🔗 [GitHub Repo](https://github.com/azzelll) *(replace with actual repo link)*
-
-### 2️⃣ Email Spam Classification
-Machine Learning model to classify emails as **Spam** or **Not Spam**.  
-🔗 [GitHub Repo](https://github.com/azzelll) *(replace with actual repo link)*
-
----
-
 ## 📊 GitHub Stats
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=azzelll&show_icons=true&theme=tokyonight)
 
