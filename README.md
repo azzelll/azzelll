@@ -1,51 +1,64 @@
-# 👋 Hi, I'm Made Shandy Krisnanda
+<div align="center">
 
-🎓 Computer Science Student | 🤖 AI & Machine Learning Enthusiast | 🔐 Cybersecurity Learner
+# Hi, I'm Made Shandy Krisnanda 👋
 
-Welcome to my GitHub!  
-I’m passionate about building innovative projects in **Artificial Intelligence**, **Machine Learning**, and **Cybersecurity**, with a strong interest in solving real-world problems through technology.
+**Computer Science @ Universitas Indonesia · Software Development Engineer Intern · AI/ML & Full-Stack Builder**
 
----
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/made-shandy-krisnanda-43ba86260)
+[![Email](https://img.shields.io/badge/Email-madeshandykrisnanda%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:madeshandykrisnanda@gmail.com)
 
-## 🚀 About Me
-- 💡 Interested in **AI**, **Cybersecurity**, and **Cloud Computing**
-- 🎯 Currently working on AI-based projects like:
-  - AI Dance Detector (Image/Video)
-  - Email Spam Classification using Machine Learning
-- 📚 Learning full-stack web development to integrate AI into web applications
-- 🌱 Exploring Capture The Flag (CTF) and Ethical Hacking challenges
-- 🌏 Open to collaboration on AI, ML, and Cybersecurity projects
+</div>
 
----
+## About me
 
-## 🛠 Tech Stack
-**Languages & Frameworks**  
-`Python` `JavaScript` `Java` `HTML` `CSS` `Node.js` `Next.js` `TailwindCSS`
+- 🎓 Computer Science undergraduate at **Universitas Indonesia**, focusing on AI Engineering and Product Development.
+- 💼 Software Development Engineer Intern at **Glair.ai, GDP Labs**, working on connector reliability, authentication flows, regression coverage, and production-quality code.
+- 🤖 I use coding agents throughout my workflow: writing scoped prompts, reviewing generated diffs, rejecting incorrect output, and verifying changes with tests before integration.
+- 🧑‍🏫 Teaching Assistant Coordinator for Computer Organization, Digital Systems Introduction, and Data Structures & Algorithms.
+- 🚀 I enjoy turning data, ML, and product ideas into reliable end-to-end systems—from the model and API to the user-facing application.
 
-**AI & Data Science Tools**  
-`NumPy` `Pandas` `Matplotlib` `Seaborn` `scikit-learn` `TensorFlow` `PyTorch`
+## Selected projects
 
-**Cybersecurity Tools**  
-`Wireshark` `Burp Suite` `nmap` `Metasploit`
+| Project | What I built | Core stack |
+| --- | --- | --- |
+| [SRASTA WiFi CSI](https://github.com/azzelll/SRASTA-WiFi-CSI) | A WiFi-CSI activity and fall-detection pipeline with TCN-Lite training, INT8 TFLite inference on Raspberry Pi, and Blynk IoT alerts. | Python, TensorFlow Lite, Raspberry Pi, ESP32, Blynk |
+| [Carda](https://github.com/azzelll/Carda) | A privacy-first Android prototype for on-device fingertip PPG wellness measurements, designed with explicit safety and architecture constraints. | Kotlin, Jetpack Compose, CameraX, TFLite |
+| [Environmental AI / Ecometric](https://github.com/azzelll/environmental-ai-project) | A multimodal environmental-quality system for air, water, and soil prediction. The broader Ecometric product won **2nd place** at Pekan RISTEK Mini Hackathon 2025. | FastAPI, Python, ML, Next.js, Firebase |
+| [Reproducible ML Workflow](https://github.com/azzelll/Workflow-CI) | Automated preprocessing, MLflow training, CI retraining, artifact publication, and Docker image delivery. See also the [experiment repository](https://github.com/azzelll/Eksperimen_SML_Made_Shandy_Krisnanda). | Python, MLflow, GitHub Actions, Docker, DagsHub |
 
-**Cloud & DevOps**  
-`Google Colab` `Kaggle` `Google Cloud Platform` `Git` `GitHub`
+## Highlights
 
----
+- 🥈 **2nd Place — Pekan RISTEK Mini Hackathon 2025:** shipped Ecometric as a functional full-stack MVP in under 48 hours.
+- 🥈 **2nd Place — Pekan RISTEK Data Competition 2025:** built a LightGBM/XGBoost earthquake early-detection system with cross-validation and out-of-fold blending.
+- 🏅 **HFLP Awardee 2026.**
 
-## 📊 GitHub Stats
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=azzelll&show_icons=true&theme=tokyonight)
+## Tech toolbox
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=azzelll&layout=compact&theme=tokyonight)
+**Languages**
+`TypeScript` `JavaScript` `Python` `SQL` `Java`
 
-![GitHub Streak](https://streak-stats.demolab.com?user=azzelll&theme=tokyonight&hide_border=true)
+**Web & Backend**
+`Next.js` `FastAPI` `Django` `React Native` `Firebase` `REST APIs` `Node.js`
 
----
+**Machine Learning & Data**
+`pandas` `scikit-learn` `LightGBM` `XGBoost` `TensorFlow` `TFLite` `MLflow`
 
-## 📫 Contact Me
-- 📧 Email: madeshandykrisnanda@gmail.com
-- 💼 LinkedIn: [linkedin.com/in/made-shandy-krisnanda](https://www.linkedin.com/in/made-shandy-krisnanda/)
+**Quality, DevOps & Tools**
+`Pytest` `Ruff` `GitHub Actions` `Docker` `Git` `Postman` `Linux/Unix`
 
----
+## GitHub activity
 
-💡 *"The best way to predict the future is to create it." — Abraham Lincoln*
+<div align="center">
+
+![Made Shandy's GitHub stats](https://github-readme-stats.vercel.app/api?username=azzelll&show_icons=true&theme=tokyonight&hide_border=true)
+
+![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=azzelll&layout=compact&theme=tokyonight&hide_border=true)
+
+</div>
+
+## Let's connect
+
+I'm open to collaborating on **AI/ML systems, data and workflow automation, full-stack products, and reliable developer tooling**.
+
+- Email: [madeshandykrisnanda@gmail.com](mailto:madeshandykrisnanda@gmail.com)
+- LinkedIn: [Made Shandy Krisnanda](https://www.linkedin.com/in/made-shandy-krisnanda-43ba86260)
