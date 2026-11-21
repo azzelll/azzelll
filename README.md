@@ -42,12 +42,14 @@ I build AI systems that work in production, and I try to break them before someo
 | --- | --- | --- |
 | [Agent Warden](https://github.com/azzelll/agent-warden) | Prompt-injection red-team harness, tool-call firewall and MCP gateway for LLM agents. | TypeScript, Ollama, MCP, Vitest |
 | [AIKO: Academic Inbox & Knowledge Organizer](https://github.com/azzelll/academic-inbox-knowledge-organizer) | Discord bot for a class server: each student binds their own SCELE feed for private deadline lists and a daily DM, asks course-material questions answered with page-level citations (hybrid BM25 + embedding retrieval), and the owner gets Gmail watch rules judged by a local LLM plus GitHub worklog drafts. | TypeScript, discord.js, Ollama, RAG, PostgreSQL, Docker |
-| [SRASTA WiFi CSI](https://github.com/azzelll/SRASTA-WiFi-CSI) | WiFi-CSI activity and fall-detection pipeline: TCN-Lite training, INT8 TFLite inference on Raspberry Pi, and Blynk IoT alerts. | Python, TensorFlow Lite, Raspberry Pi, ESP32 |
-| [Carda](https://github.com/azzelll/Carda) | Privacy-first Android prototype for on-device fingertip PPG wellness measurements, designed with explicit safety constraints. | Kotlin, Jetpack Compose, CameraX, TFLite |
+| [SRASTA WiFi CSI](https://github.com/azzelll/SRASTA-WiFi-CSI) | WiFi-CSI activity and fall-detection pipeline: TCN-Lite training, INT8 TFLite inference on Raspberry Pi, and Blynk IoT alerts. **GEMASTIK finalist (IoT).** | Python, TensorFlow Lite, Raspberry Pi, ESP32 |
+| [Carda](https://github.com/azzelll/Carda) | Privacy-first Android prototype for on-device fingertip PPG wellness measurements, designed with explicit safety constraints. **GEMASTIK finalist (Software Development).** | Kotlin, Jetpack Compose, CameraX, TFLite |
 | [Environmental AI / Ecometric](https://github.com/azzelll/environmental-ai-project) | Multimodal environmental-quality system for air, water and soil prediction. The broader Ecometric product won **2nd place** at the Pekan RISTEK Mini Hackathon 2025. | FastAPI, Python, ML, Next.js, Firebase |
 
 ## Highlights
 
+- 🏆 **GEMASTIK Finalist, Internet of Things division:** [SRASTA](https://github.com/azzelll/SRASTA-WiFi-CSI), contactless activity and fall detection from WiFi CSI running on a Raspberry Pi.
+- 🏆 **GEMASTIK Finalist, Software Development division:** [Carda](https://github.com/azzelll/Carda), a privacy-first on-device PPG wellness app for Android.
 - 🥈 **2nd Place, Pekan RISTEK Mini Hackathon 2025:** shipped Ecometric as a working full-stack MVP in under 48 hours.
 - 🥈 **2nd Place, Pekan RISTEK Data Competition 2025:** LightGBM/XGBoost earthquake early-detection system with cross-validation and out-of-fold blending.
 - 🏅 **HFLP Awardee 2026.**
