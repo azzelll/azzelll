@@ -43,7 +43,7 @@ I build AI systems that work in production, and I try to break them before someo
 
 **[gha-sentinel](https://github.com/azzelll/gha-sentinel)**: a static scanner for GitHub Actions workflows (pwn requests, script injection, risky token permissions) with SARIF output for code scanning.
 
-- **Scanned the 1,000 most-starred GitHub repositories** (10,213 workflows) and **reviewed every critical finding by hand**: the first version was right 1 time in 31. Six false-positive classes were fixed, cutting findings to 2 **without losing the real vulnerability**, which is being disclosed privately.
+- **Scanned the 1,000 most-starred GitHub repositories** (10,213 workflows) and **reviewed every critical finding by hand**: the first version was right 1 time in 31. Six false-positive classes were fixed, cutting findings to 2 **without losing the real vulnerability** (not named publicly).
 - Showed that **LLM triage is unsafe as a filter**: a local model dismissed the one real vulnerability. Rules informed by manual review did far better.
 
 ## Selected projects
