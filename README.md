@@ -26,15 +26,25 @@ I build AI systems that work in production, and I try to break them before someo
 - 🧑‍🏫 Teaching Assistant Coordinator for Computer Organization, Digital Systems Introduction, and Data Structures & Algorithms.
 - 🤝 I use coding agents in my daily workflow: scoped prompts, reviewed diffs, rejected bad output, and changes verified with tests before they land.
 
-## Featured: Agent Warden
+## Featured projects
+
+### 🛡️ Agent Warden: AI security
 
 **[Agent Warden](https://github.com/azzelll/agent-warden)**: a red-team harness and a four-layer firewall against indirect prompt injection in tool-using LLM agents.
 
 - **104 attacks**: 5 attacker goals × 3 injection vectors × 8 techniques (English and Indonesian, base64, fake system tags, forged conversation turns, impersonation).
 - **4 independent defense layers**: spotlighting, an injection scanner, a tool-call policy whose capabilities come only from the user's prompt (with taint tracking), and an output filter.
 - **Deterministic scoring** from observable side effects, never an LLM judge, reported with 95% confidence intervals.
-- Against a worst-case agent that obeys every injected instruction: **99% → 0% attack success, with 100% of benign tasks still working.** No single layer was enough on its own.
-- Ships as an **MCP gateway** (`warden-gateway`) that puts the same policy in front of any stdio MCP server. A workshop paper draft is in progress.
+- On a real local model (qwen3:8b): **32.7% → 0% attack success** (95% CI 0–4%) with no loss of benign utility. On a worst-case agent that obeys every injected instruction: 99% → 0%. No single layer was enough on its own.
+- **Fine-tuned a multilingual injection detector** to replace the regex layer: best recall on attack techniques it never saw in training (81%), where an off-the-shelf English detector catches 7.7% of Indonesian payloads.
+- Ships as an **MCP gateway** (`warden-gateway`) that puts the same policy in front of any stdio MCP server. Workshop paper draft included.
+
+### 🔍 gha-sentinel: CI/CD supply-chain security
+
+**[gha-sentinel](https://github.com/azzelll/gha-sentinel)**: a static scanner for GitHub Actions workflows (pwn requests, script injection, risky token permissions) with SARIF output for code scanning.
+
+- **Scanned the 1,000 most-starred GitHub repositories** (10,213 workflows) and **reviewed every critical finding by hand**: the first version was right 1 time in 31. Six false-positive classes were fixed, cutting findings to 2 **without losing the real vulnerability**, which is being disclosed privately.
+- Showed that **LLM triage is unsafe as a filter**: a local model dismissed the one real vulnerability. Rules informed by manual review did far better.
 
 ## Selected projects
 
@@ -42,6 +52,7 @@ I build AI systems that work in production, and I try to break them before someo
 | --- | --- | --- |
 | [Agent Warden](https://github.com/azzelll/agent-warden) | Prompt-injection red-team harness, tool-call firewall and MCP gateway for LLM agents. | TypeScript, Ollama, MCP, Vitest |
 | [AIKO: Academic Inbox & Knowledge Organizer](https://github.com/azzelll/academic-inbox-knowledge-organizer) | Discord bot for a class server: each student binds their own SCELE feed for private deadline lists and a daily DM, asks course-material questions answered with page-level citations (hybrid BM25 + embedding retrieval), and the owner gets Gmail watch rules judged by a local LLM plus GitHub worklog drafts. | TypeScript, discord.js, Ollama, RAG, PostgreSQL, Docker |
+| [gha-sentinel](https://github.com/azzelll/gha-sentinel) | Static security scanner for GitHub Actions plus a manually reviewed study of the 1,000 most-starred repositories; found a real pwn request. | Python, YAML analysis, SARIF, GitHub API |
 | [SRASTA WiFi CSI](https://github.com/azzelll/SRASTA-WiFi-CSI) | WiFi-CSI activity and fall-detection pipeline: TCN-Lite training, INT8 TFLite inference on Raspberry Pi, and Blynk IoT alerts. **GEMASTIK 2026 finalist (IoT).** | Python, TensorFlow Lite, Raspberry Pi, ESP32 |
 | [Carda](https://github.com/azzelll/Carda) | Privacy-first Android prototype for on-device fingertip PPG wellness measurements, designed with explicit safety constraints. **GEMASTIK 2026 finalist (Software Development).** | Kotlin, Jetpack Compose, CameraX, TFLite |
 | [Environmental AI / Ecometric](https://github.com/azzelll/environmental-ai-project) | Multimodal environmental-quality system for air, water and soil prediction. The broader Ecometric product won **2nd place** at the Pekan RISTEK Mini Hackathon 2025. | FastAPI, Python, ML, Next.js, Firebase |
@@ -60,7 +71,7 @@ I build AI systems that work in production, and I try to break them before someo
 `LLM agents` `Tool calling` `RAG` `Ollama` `MCP` `scikit-learn` `LightGBM` `XGBoost` `TensorFlow` `TFLite` `MLflow`
 
 **Security**
-`Threat modeling` `Prompt-injection red-teaming` `Least-privilege tool policies` `OAuth flows` `Secrets hygiene`
+`Threat modeling` `Prompt-injection red-teaming` `CI/CD supply-chain security` `Static analysis` `Least-privilege tool policies` `OAuth flows` `Secrets hygiene`
 
 **Languages**
 `TypeScript` `Python` `SQL` `Java` `Kotlin`
